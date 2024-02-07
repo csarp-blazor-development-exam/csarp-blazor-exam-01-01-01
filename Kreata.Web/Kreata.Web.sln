@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreata.Web", "Kreata.Web.csproj", "{3BFC8CC2-5C95-4F01-842E-1E90F163FAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kreata.Web", "Kreata.Web.csproj", "{3BFC8CC2-5C95-4F01-842E-1E90F163FAB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kreata.Backend", "..\Kreata.Backend\Kreata.Backend.csproj", "{EC096DCD-EE15-4112-93B5-67545A25DCD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kreta.Shared", "..\Kreta.Shared\Kreta.Shared.csproj", "{01DA3964-B72A-461E-A23C-55E5313BEA59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kreta.HttpService", "..\Kreta.HttpService\Kreta.HttpService.csproj", "{3F5D8C3A-9E09-4BC7-910C-E313F1352CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3BFC8CC2-5C95-4F01-842E-1E90F163FAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFC8CC2-5C95-4F01-842E-1E90F163FAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFC8CC2-5C95-4F01-842E-1E90F163FAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC096DCD-EE15-4112-93B5-67545A25DCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC096DCD-EE15-4112-93B5-67545A25DCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC096DCD-EE15-4112-93B5-67545A25DCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC096DCD-EE15-4112-93B5-67545A25DCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DA3964-B72A-461E-A23C-55E5313BEA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DA3964-B72A-461E-A23C-55E5313BEA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DA3964-B72A-461E-A23C-55E5313BEA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DA3964-B72A-461E-A23C-55E5313BEA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5D8C3A-9E09-4BC7-910C-E313F1352CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5D8C3A-9E09-4BC7-910C-E313F1352CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5D8C3A-9E09-4BC7-910C-E313F1352CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5D8C3A-9E09-4BC7-910C-E313F1352CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
